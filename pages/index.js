@@ -45,7 +45,7 @@ export default function Home({ allPostsData }) {
       {/* gridで表示したい */}
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
 
-        <h2 className={utilStyles.headingLg}>🗒図解エンジニアブログ</h2>
+        <h2 className={utilStyles.headingLg}>図解エンジニアブログ</h2>
 
         <div className={`${styles.grid}`}>
           {allPostsData.map(({ id, date, title, thumbnail }) => (
